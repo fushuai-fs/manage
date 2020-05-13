@@ -1,25 +1,25 @@
 #Java8 源码阅读环境搭建
 	
 1**、找到JDK安装包所在目录，会看到src.zip的压缩包，这里面就是JDK的源码，如下图。**
-![源码位置](./image/jdk_path.png)
+![源码位置](image/jdk_path.png)
 
 **把 src.zip 解压到 src 文件夹下**
 
 **2、新建一个简单的Java工程**
 打开idea，菜单栏File => Project，出现如下图
-![源码位置](./image/idea_new_project_1.png)
+![源码位置](image/idea_new_project_1.png)
 下一步
-![源码位置](./image/idea_new_project_2.png)
+![源码位置](image/idea_new_project_2.png)
 下一步
-![源码位置](./image/idea_new_project_3.png)
+![源码位置](image/idea_new_project_3.png)
 完成
 
 **3、在新建项目 src 下新建 source 文件夹，把解压后的 src 文件夹下的文件拷贝到 source 文件夹下，如下图 **
-![源码位置](./image/source1.png)
+![源码位置](image/source1.png)
 
 ##### 3.1 在test 下新建一个测试类，我们现在建一个 HashMapTest ，写一个测试，然后启动调试，如下图
 
-![测试类](./image/test.png)
+![测试类](image/test.png)
 
 ##### 3.1 错误 1  内存不足错误
 ![错误](./image/insufficient_memory.png)
